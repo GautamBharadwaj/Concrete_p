@@ -1,0 +1,5 @@
+,Algorithm,accuracy
+0,XGBoostRegressor,0.92212973
+1,RandomForestRegressor,0.897740804
+2,LinearRegression,0.866314695
+3,RandomForestRegressor,0.838031427
