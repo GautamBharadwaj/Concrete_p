@@ -4,6 +4,9 @@ from Python_Files.prediction_Validation_Insertion import pred_validation
 from Python_Files.predictFromModel import prediction
 import os
 
+import detectron2
+from detectron2.utils.logger import setup_logger
+
 current_working_directory = os.getcwd().replace("\\","//")
 
 training_files_path  = f"{current_working_directory}//Input//Training_Batch_Files"
