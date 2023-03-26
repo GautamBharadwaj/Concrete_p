@@ -3,6 +3,9 @@ from Python_Files.training_Validation_Insertion import train_validation
 from Python_Files.prediction_Validation_Insertion import pred_validation
 from Python_Files.predictFromModel import prediction
 
+import detectron2
+from detectron2.utils.logger import setup_logger
+
 from wsgiref import simple_server
 from flask import Flask, request, render_template
 from flask import Response
